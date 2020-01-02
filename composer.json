@@ -1,9 +1,13 @@
 {
-	"name": "jbennecker/silverstripe-honeypotprotection",
-	"description": "",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "spamprotection"],
-	"require": {
-		"silverstripe/spamprotection": "^2"
-	}
+    "name": "jbennecker/silverstripe-honeypotprotection",
+    "license": "MIT",
+    "description": "",
+    "type": "silverstripe-module",
+    "keywords": [
+        "silverstripe",
+        "spamprotection"
+    ],
+    "require": {
+        "silverstripe/spamprotection": "^2"
+    }
 }
