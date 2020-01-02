@@ -5,7 +5,7 @@ class HoneypotProtectorField extends TextField
 
     public function Field($properties = [])
     {
-        Requirements::css('honeypotprotection/css/style.css');
+        Requirements::css('silverstripe-honeypotprotection/css/style.css');
         return parent::Field($properties);
     }
 
