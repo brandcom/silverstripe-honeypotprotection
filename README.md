@@ -1,5 +1,7 @@
 # silverstripe-honeypotprotection
 
+This module works by adding a normal text field which is visually hidden. The field is invalid when it's not empty. Bot will likely fill out the field, because they don't process css.
+
 ## Requirements
 
 * SilverStripe 3.x
