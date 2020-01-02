@@ -1,0 +1,9 @@
+{
+	"name": "jbennecker/silverstripe-honeypotprotection",
+	"description": "",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "spamprotection"],
+	"require": {
+		"silverstripe/spamprotection": "^2"
+	}
+}
