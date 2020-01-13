@@ -19,7 +19,7 @@ Set the default spam protector in src/_config/spamprotection.yml
 ---
 name: spamprotection
 ---
-FormSpamProtectionExtension:
+SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
   default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
 ```
 
