@@ -1,4 +1,7 @@
 <?php
+namespace jbennecker\HoneypotProtection;
+
+use SilverStripe\SpamProtection\SpamProtector;
 
 class HoneypotProtector implements SpamProtector
 {

@@ -4,7 +4,7 @@ This module works by adding a normal text field which is visually hidden. The fi
 
 ## Requirements
 
-* SilverStripe 3.x
+* SilverStripe 4.x (for SilverStripe 3.x use 3.x Branch)
 * [SpamProtection Module](https://github.com/silverstripe/silverstripe-spamprotection)
 
 ## Install
@@ -13,12 +13,27 @@ Install via composer.
 
 `composer require jbennecker/silverstripe-honeypotprotection`
 
-Set the default spam protector in mysite/_config/spamprotection.yml
+Set the default spam protector in src/_config/spamprotection.yml
 
 ```yaml
 ---
 name: spamprotection
 ---
 FormSpamProtectionExtension:
-  default_spam_protector: HoneypotProtector
+  default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
 ```
+
+## Usage
+
+In custom forms add the field like this
+
+    use jbennecker\HoneypotProtection\HoneypotProtectorField;
+
+    ....
+
+    $fields = new FieldList(
+        ....
+        HoneypotProtectorField::create('Phone') // Change title accordingly
+    )
+
+For userforms simply add a spamprotector-field.
