@@ -9,7 +9,7 @@ class HoneypotProtectorField extends TextField
 
     public function Field($properties = [])
     {
-        Requirements::css('public/resources/vendor/jbennecker/silverstripe-honeypotprotection/css/style.css');
+        Requirements::css('jbennecker/silverstripe-honeypotprotection:css/style.css');
         $this->setAttribute('autocomplete', 'off');
 
         return parent::Field($properties);
