@@ -8,6 +8,7 @@
         "spamprotection"
     ],
     "require": {
+        "silverstripe/framework": "^3",
         "silverstripe/spamprotection": "^2"
     }
 }
