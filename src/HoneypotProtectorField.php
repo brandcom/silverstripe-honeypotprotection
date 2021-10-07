@@ -11,6 +11,7 @@ class HoneypotProtectorField extends TextField
     {
         Requirements::css('jbennecker/silverstripe-honeypotprotection:css/style.css');
         $this->setAttribute('autocomplete', 'off');
+        $this->setAttribute('tabindex', '-1');
 
         return parent::Field($properties);
     }
