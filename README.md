@@ -13,12 +13,9 @@ Install via composer.
 
 `composer require jbennecker/silverstripe-honeypotprotection`
 
-Set the default spam protector in src/_config/spamprotection.yml
+Set the default spam protector in a .yml config file of your choice.
 
 ```yaml
----
-name: spamprotection
----
 SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
   default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
 ```
