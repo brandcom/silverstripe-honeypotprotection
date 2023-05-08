@@ -8,8 +8,8 @@
         "spamprotection"
     ],
     "require": {
-        "silverstripe/framework": "^4",
-        "silverstripe/spamprotection": "^3"
+        "silverstripe/framework": "^5",
+        "silverstripe/spamprotection": "^4"
     },
     "autoload": {
         "psr-4": {

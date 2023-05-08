@@ -4,7 +4,7 @@ This module works by adding a normal text field which is visually hidden. The fi
 
 ## Requirements
 
-* SilverStripe 4.x (for SilverStripe 3.x use 3.x Branch)
+* SilverStripe 5.x (for SilverStripe 4.x use 4.x Branch)
 * [SpamProtection Module](https://github.com/silverstripe/silverstripe-spamprotection)
 
 ## Install
